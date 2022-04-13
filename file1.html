@@ -1,18 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best metal</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <style>
+        h1{
+            color: black;
+            border: 4px solid black;
+            text-align: center;
+            margin: auto;
+            width: 300px;
+            border-radius: 30px;
+            background-color: grey;
+        }
+        .navbar{
+            background-color: rgb(114, 175, 17);
+            border-radius: 30px;
+            position: sticky;
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px , 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .imp{
+            border: 5px solid black;
+            border-radius: 8px;
+            background-color: black;
+            color: white;
+            width:700px;
+            display: inline-block;
+        }
+        .container{
+            border: 5px solid black;
+            border-radius: 8px;
+            background-color: black;
+            color: white;
+            width:700px;
+            display: inline-block;
+
+        }
+       
+    </style>
 </head>
+
 <body>
-    <ul>
-        <li class="item">Home</li>
-        <li class="item">Services</li>
-        <li class="item">About Us</li>
-        <li class="item">Contact us</li>
-        <li class="item">Hall of Fame</li>
-    </ul>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><h1>Kothari Metals</h1></li>
+                
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="tut8.html">Register</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                
+                
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search from menu">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="imp">
+      Contact us:
+      <ul>
+          <li>gmail: ......</li>
+          <li>instagram:</li>
+          <li>Facebook</li>
+      </ul>
+    </div>
+    <div class="container">
+        Address:xxxxxxxxxxxxxxxxxx.
+    </div>
 </body>
+
 </html>
