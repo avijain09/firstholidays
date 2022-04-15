@@ -1,8 +1,9 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0px;
+    
 }
 
 #navbar::before{
@@ -57,6 +58,7 @@
     position: relative;
     display: flex;
 }
+<<<<<<< HEAD
 .search-icon {
     position: absolute;
     top: 8px;
@@ -70,3 +72,25 @@
     display: flex;
     min-width: 100px;
   }
+=======
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('images/back.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+>>>>>>> 538c51c6c955a505e065e9fac6c1fb5f64569919
