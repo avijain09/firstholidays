@@ -40,8 +40,8 @@
 
 #navbar ul li a{
     color: white;
-    display: block;
-    padding: 3px 22px;
+    display: flex;
+    padding: 3px 29px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -55,6 +55,6 @@
     
         float: right;
         color: white;
-        padding: 12px 75px;
+        padding: 10px 100px;
 
 }
