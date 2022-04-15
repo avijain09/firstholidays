@@ -50,3 +50,11 @@
     color: black;
     background-color: white;
 }
+
+.search {
+    
+        float: right;
+        color: white;
+        padding: 12px 75px;
+
+}
