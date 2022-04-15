@@ -42,7 +42,7 @@
     color: white;
     display: flex;
     padding: 3px 29px;
-    border-radius: 20px;
+    border-radius: 15px;
     text-decoration: none;
 }
 
@@ -52,9 +52,21 @@
 }
 
 .search {
-    
-        float: right;
-        color: white;
-        padding: 10px 100px;
-
+    color: white;
+    padding: 5px 50px;
+    position: relative;
+    display: flex;
 }
+.search-icon {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 14px;
+  }
+  .searchbox {
+    float: right;
+    position: absolute;
+    left: 950px;
+    display: flex;
+    min-width: 100px;
+  }
