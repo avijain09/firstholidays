@@ -58,7 +58,6 @@
     position: relative;
     display: flex;
 }
-<<<<<<< HEAD
 .search-icon {
     position: absolute;
     top: 8px;
@@ -72,7 +71,6 @@
     display: flex;
     min-width: 100px;
   }
-=======
 #home{
     display: flex;
     flex-direction: column;
@@ -93,4 +91,3 @@
     z-index: -1;
     opacity:0.89;
 }
->>>>>>> 538c51c6c955a505e065e9fac6c1fb5f64569919
