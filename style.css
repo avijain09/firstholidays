@@ -1,7 +1,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
     
 }
@@ -89,7 +89,7 @@
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../firstholidays/images/metalbg.jpg') no-repeat center center/cover;
+    background: url('images/metalbg.jpg') no-repeat center center/cover;
     height: 902px;
     top:0px;
     left:0px;
@@ -97,3 +97,37 @@
     z-index: -1;
     opacity:0.89;
 }
+#home h1{
+    color:rgb(195, 20, 20);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    margin: 34px;
+    display: flex;
+    height: 500px;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+} 
+
+#services-container.h-primary center{
+    text-align: center;
+    justify-content: center;
+}
+
