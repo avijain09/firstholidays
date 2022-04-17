@@ -94,7 +94,7 @@
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('images/colors.jpg') no-repeat center center/cover;
+    background: url('images/backgroungweb.jpg') no-repeat center center/cover;
     height: 2200px;
     top:0px;
     left:0px;
@@ -218,6 +218,3 @@
      background-color: white;
      padding: 4px 5px;
  }
-  #sampleorder{
-  
-  }
