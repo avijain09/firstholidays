@@ -90,7 +90,7 @@
 #about::before{ 
     content: "";
     position: absolute;
-    background: url('images/colors.jpg') no-repeat center center/cover;
+    background: url('images/backgroungweb.jpg') no-repeat center center/cover;
     height: 1900px;
     top:0px;
     left:0px;
