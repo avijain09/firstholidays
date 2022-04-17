@@ -50,7 +50,7 @@
 #navbar ul li a:hover{
     color: black;
     background-color: white;
-    position: fixed;
+    
 }
 
 .search {
@@ -106,8 +106,15 @@
     font-style: bold;
 }
 #about p{
-    color: rgb(21, 94, 8);
+    color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-style: italic;
+}
+#image img{
+    height: 300px;
+}
+#image img.industry{
+    height: 300px;
+    width: 1000px;
 }
