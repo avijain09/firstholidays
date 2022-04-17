@@ -93,7 +93,7 @@
     content: "";
     position: absolute;
     background: url('images/colors.jpg') no-repeat center center/cover;
-    height: 1900px;
+    height: 2200px;
     top:0px;
     left:0px;
     width: 100%;
@@ -168,12 +168,34 @@
 #services-container h1{
     color: white;
     text-align: center;
+   
 }
 
 #client-section h1{
     color: white;
     text-align: center;
     justify-content: center;
-    
 }
 
+#sample{
+
+    justify-content: center;
+    padding: 20px 100px;
+    align-items: center;
+    border: white solid 8px;
+    border-radius: 6px;
+    color:whitesmoke
+
+}
+.avi{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#aviral{
+
+    padding-right: 100px ;
+}
+
+ #home{
+     display: flex;
+ }

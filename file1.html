@@ -32,6 +32,7 @@
     </nav>
     
     <section id="home">
+       
         <h1 style="font-size:250%;">KOTHARI METALS</h1>
     </section>
     
@@ -66,8 +67,10 @@
                             voluptas beatae facilis labore, omnis sint quae eum.</p>
                     </div>
                     <br>
+                    <br>
                     
             </div>
+            </section>
             <section id="client-section">
                 <h1 style="font-size: 200%;"class="h-primary center"> OUR CLIENTS </h1>
                 <div id="clients">
@@ -86,6 +89,69 @@
                     </div>
                 </div>
         
+            </section>
+            <br>
+            <br>
+            <section id="sample">
+                <h1 style="font-size: 200%;"class="h-primary center">Place sample order here:</h1>
+                <form action="backend.php" class="avi">
+                    <div class="avi">
+                        <label for="name">Name:</label>
+                        <input type="text" name="myname" id="name">
+                    </div>
+                    
+                   
+                    <br>
+                    <div class="avi">
+                        Email: <input type="email" name="myemail">
+                    </div>
+                    <br>
+                    <div>
+                        Name of your Firm : <input type="text" name="firm name">
+                    </div>
+                    <br>
+                    
+                    <div>
+                        <label for="sample">Sample order :</label>
+                        <select name="mycollege" id="college">
+                            <option value="Bowl">Bowl</option>
+                            <option value="Glasses">Glasses</option>
+                            <option value="Boiler">Boiler</option>
+                            <option value="Bharni">Bharni</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        Number of pieces(will be charged if above 5*):<input type="number" name="number of pieces">
+                    </div>
+                    <br>
+                    <div class="avi">
+                        Date of birth: <input type="date" name="mydate">
+                    </div>
+                    <br>
+                    <div class="avi">
+                        Gender : male <input type="radio" name="mygender"> female <input type="radio" name="mygender"> other: <input
+                            type="radio" name="mygender" id="">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="avi">
+                        Write about yourself:
+                        <br>
+                        <textarea name="" id="" cols="100" rows="10"></textarea>
+                    </div>
+            
+                    <br>
+                    <div class="avi">
+                        Are you eligible? <input type="checkbox" name="" checked>
+                    </div>
+                    <br>
+                    <input type="submit" value="Submit now">
+                    <br>
+                    <br>
+                    <input type="reset" value="Reset ">
+            
+                </form>
             </section>
 </body>
 
