@@ -50,11 +50,11 @@
 #navbar ul li a:hover{
     color: black;
     background-color: white;
-    position: fixed;
+    position: relative;
 }
 
 .search {
-    color: white;
+    color: black;
     padding: 5px 50px;
     position: relative;
     display: flex;
