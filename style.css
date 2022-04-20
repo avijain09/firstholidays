@@ -1,8 +1,10 @@
+
 #navbar{
     display: flex;
     align-items: center;
     position: sticky;
     top: 0px;
+    
     
 }
 
@@ -54,7 +56,7 @@
 }
 
 .search {
-    color: white;
+    color: black;
     padding: 5px 50px;
     position: relative;
     display: flex;
@@ -92,7 +94,7 @@
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('images/colors.jpg') no-repeat center center/cover;
+    background: url('images/backgroungweb.jpg') no-repeat center center/cover;
     height: 2200px;
     top:0px;
     left:0px;
@@ -101,7 +103,7 @@
     opacity:0.89;
 }
 #home h1{
-    color:blue;
+    color:black;
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-style: italic;
@@ -169,9 +171,11 @@
     color: white;
     text-align: center;
    
+   
 }
 
 #client-section h1{
+    
     color: white;
     text-align: center;
     justify-content: center;
@@ -198,4 +202,19 @@
 
  #home{
      display: flex;
+ }
+ #contactus{
+     
+     color: white;
+     border: white 2px solid;
+     border-radius: 4px;
+     width: 100%;
+     background-color: black;
+ }
+ #contact{
+     padding: 10px 10px;
+ }
+ #company{
+     background-color: white;
+     padding: 4px 5px;
  }

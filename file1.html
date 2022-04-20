@@ -13,15 +13,13 @@
     <nav id="navbar">
 
         <div id="logo">
-            <img src="images/km.jpg" alt="error">
+            <img src="images/kmt.png" alt="error">
         </div>
         <ul>
-            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="file1.htm">Home</a></li>
             <li class="item"><a href="about.html">About</a></li>
-            <li class="item"><a href="">Contact us</a></li>
+            <li class="item" id=""><a href="">Contact us</a></li>
             <li class="item"><a href="">Hall of fame</a></li>
-
-            
         </ul>
 
         <div class="searchbox">
@@ -33,7 +31,7 @@
     
     <section id="home">
        
-        <h1 style="font-size:250%;">KOTHARI METALS</h1>
+        <h1 id="company" style="font-size:250%;">KOTHARI METALS</h1>
     </section>
     
     
@@ -93,7 +91,7 @@
             <br>
             <br>
             <section id="sample">
-                <h1 style="font-size: 200%;"class="h-primary center">Place sample order here:</h1>
+                <h1 style="font-size: 200%;"class="h-primary center" id="sampleorder">Place sample order here:</h1>
                 <form action="backend.php" class="avi">
                     <div class="avi">
                         <label for="name">Name:</label>
@@ -122,7 +120,7 @@
                     </div>
                     <br>
                     <div>
-                        Number of pieces(will be charged if above 5*):<input type="number" name="number of pieces">
+                        Number of pieces(will be charged if above 5*):<input type="number" name="number of pieces" min="0 ">
                     </div>
                     <br>
                     <div class="avi">
@@ -152,6 +150,15 @@
                     <input type="reset" value="Reset ">
             
                 </form>
+            </section>
+            <br>
+            <section id="contactus">
+                <h2 id="contact">Contact Us </h2>
+                <ul>
+                    <li>phone no. : 8769897698</li>
+                    <li>Email : a_jain2@ce.iitr.ac.in</li>
+
+                </ul>
             </section>
 </body>
 
